@@ -12,7 +12,7 @@ else
    
 }
 ?>
-<button class="CreateKit"><a href="/wordpress/kit/">Créez votre propre kit </a></button>
+<button class="CreateKit"><a href="/wordpress/kit/">Publie ton aventure</a></button>
 
 </header>
 <body <?php body_class(); ?>>

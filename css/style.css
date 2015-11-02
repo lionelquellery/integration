@@ -143,6 +143,17 @@ html, body {
   #panel-name-2 .title-template-1 {
     font-family: NeutrafaceText-book;
     color: green; }
+  #panel-name-2 .card {
+    width: 887px;
+    height: 420px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    border: 1px solid #c0caa7; }
+    #panel-name-2 .card .card-box {
+      width: 200px;
+      height: 200px;
+      background-color: red; }
 
 #panel-name-3 {
   background-color: #ddd; }

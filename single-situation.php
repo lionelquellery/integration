@@ -40,6 +40,12 @@
       <h1 class="title-template-1">A PROPOS</h1>
       <p><?php the_field('description-propos-2') ?></p>
    </div>
+
+   <div class="card">
+      <div class="card-box">
+         
+      </div>
+   </div>
 </section>
 
 
