@@ -18,7 +18,7 @@
   <div class="card-footer">
     <ul>
       <li>
-        <a href="<?php the_post_permalink( $id ); ?>">oups</a>
+        <a href="<?php echo post_permalink( $ID ); ?>">oups</a>
       </li>
     </ul>
   </div>
