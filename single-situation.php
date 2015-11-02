@@ -42,9 +42,19 @@
    </div>
 
    <div class="card">
+   <h1 class="text-illustration">Vous aurez besoin de 5 élements</h1>
+
+
       <div class="card-box">
-         
+        <div class="myimage">
+           <img src="" alt="">
+           <p>sfbjqsbjfb</p>
+        </div>
       </div>
+
+   
+
+
    </div>
 </section>
 
