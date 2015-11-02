@@ -158,7 +158,8 @@ html, body {
       background-color: red;
       margin-left: 2%;
       margin-top: 5%;
-      display: inline-block; }
+      display: inline-block;
+      word-wrap: break-word; }
       #panel-name-2 .card .card-box .myimage {
         width: inherit;
         height: 64%;

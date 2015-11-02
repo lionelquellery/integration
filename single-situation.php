@@ -41,20 +41,20 @@
       <p><?php the_field('description-propos-2') ?></p>
    </div>
 
+
    <div class="card">
    <h1 class="text-illustration">Vous aurez besoin de 5 élements</h1>
-
-
+   <?php if( have_rows('ingredient') ): ?>
+    <?php while ( have_rows('ingredient') ) : the_row(); ?>
       <div class="card-box">
         <div class="myimage">
-           <img src="" alt="">
-           <p>sfbjqsbjfb</p>
+           <img src="<?php the_sub_field('img_ing'); ?>" alt="">
+           <p><?php the_sub_field('title_ing'); ?></p>
         </div>
       </div>
 
-   
-
-
+<?php endwhile; ?>
+<?php endif; ?>
    </div>
 </section>
 
