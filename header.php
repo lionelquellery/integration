@@ -6,8 +6,6 @@
 
     <?php if(preg_match('`montagne`', $_SERVER['REQUEST_URI'])) {
     	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/ile-deserte.css">';
-    }else{
-    	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/style.css">';
     }
     ?>
 
