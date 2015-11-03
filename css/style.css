@@ -178,7 +178,8 @@ html, body {
           height: 100%; }
 
 #panel-name-3 {
-  background-color: #ddd; }
+  background-repeat: no-repeat;
+  background-size: cover; }
   #panel-name-3 .title-template {
     text-align: center;
     color: green;
@@ -226,7 +227,8 @@ html, body {
           height: 100%; }
 
 #panel-name-4 {
-  background-color: #bbb; }
+  background-repeat: no-repeat;
+  background-size: cover; }
   #panel-name-4 .title-template {
     text-align: center;
     color: green;
