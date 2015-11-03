@@ -69,6 +69,21 @@
       <h1 class="title-template-1">A PROPOS</h1>
       <p><?php the_field('description-propos-3') ?></p>
    </div>
+
+    <div class="card">
+   <h1 class="text-illustration">Vous aurez besoin de 5 élements</h1>
+   <?php if( have_rows('ingredient_2') ): ?>
+    <?php while ( have_rows('ingredient_2') ) : the_row(); ?>
+      <div class="card-box">
+        <div class="myimage">
+           <img src="<?php the_sub_field('img_ing_2'); ?>" alt="">
+           <p><?php the_sub_field('title_ing_2'); ?></p>
+        </div>
+      </div>
+
+<?php endwhile; ?>
+<?php endif; ?>
+   </div>
 </section>
 
 
@@ -80,6 +95,21 @@
    <div class="float-box">
       <h1 class="title-template-1">A PROPOS</h1>
       <p><?php the_field('description-propos-4') ?></p>
+   </div>
+
+    <div class="card">
+   <h1 class="text-illustration">Vous aurez besoin de 5 élements</h1>
+   <?php if( have_rows('ingredient_3') ): ?>
+    <?php while ( have_rows('ingredient_3') ) : the_row(); ?>
+      <div class="card-box">
+        <div class="myimage">
+           <img src="<?php the_sub_field('img_ing_3'); ?>" alt="">
+           <p><?php the_sub_field('title_ing_3'); ?></p>
+        </div>
+      </div>
+
+<?php endwhile; ?>
+<?php endif; ?>
    </div>
 </section>
 
