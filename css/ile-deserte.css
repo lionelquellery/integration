@@ -8,6 +8,9 @@
   font-family: georgia;
   src: url(../font/Georgia.ttf); }
 @font-face {
+  font-family: neutraface-d;
+  src: url(../font/NeutrafaceText-Demi.otf); }
+@font-face {
   font-family: neutraface-b;
   src: url(../font/NeutrafaceText-Bold.otf); }
 @font-face {
@@ -110,7 +113,8 @@ html, body {
   margin-left: 2%;
   display: inline-block; }
   #panel-name-1 .template-situation h1 {
-    color: #ddcb55; }
+    color: #ddcb55;
+    font-family: neutraface-d; }
 
 #panel-name-2 {
   background-repeat: no-repeat;

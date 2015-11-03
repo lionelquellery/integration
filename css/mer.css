@@ -11,6 +11,9 @@
   font-family: neutraface-b;
   src: url(../font/NeutrafaceText-Bold.otf); }
 @font-face {
+  font-family: neutraface-d;
+  src: url(../font/NeutrafaceText-Demi.otf); }
+@font-face {
   font-family: BigJohn;
   src: url(../font/BigJohn.otf); }
 html, body {
@@ -110,7 +113,8 @@ html, body {
   margin-left: 2%;
   display: inline-block; }
   #panel-name-1 .template-situation h1 {
-    color: #38547e; }
+    color: #38547e;
+    font-family: neutraface-d; }
 
 #panel-name-2 {
   background-repeat: no-repeat;
