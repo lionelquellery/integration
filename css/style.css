@@ -137,6 +137,8 @@ html, body {
 #panel-name-2 {
   background-repeat: no-repeat;
   background-size: cover; }
+  #panel-name-2 p {
+    font-family: georgia; }
   #panel-name-2 .title-template {
     text-align: center;
     color: green;
@@ -152,8 +154,6 @@ html, body {
   #panel-name-2 .title-template-1 {
     font-family: neutraface-b;
     color: green; }
-    #panel-name-2 .title-template-1 p {
-      family: georgia; }
   #panel-name-2 .card {
     width: 60%;
     height: 100%;
@@ -194,6 +194,8 @@ html, body {
 #panel-name-3 {
   background-repeat: no-repeat;
   background-size: cover; }
+  #panel-name-3 p {
+    font-family: georgia; }
   #panel-name-3 .title-template {
     text-align: center;
     color: green;
@@ -249,6 +251,8 @@ html, body {
 #panel-name-4 {
   background-repeat: no-repeat;
   background-size: cover; }
+  #panel-name-4 p {
+    font-family: georgia; }
   #panel-name-4 .title-template {
     text-align: center;
     color: green;
