@@ -6,6 +6,8 @@
 
     <?php if(preg_match('`ile-deserte`', $_SERVER['REQUEST_URI'])) {
     	echo '<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/ile-deserte.css">';
+    }else{
+    	echo '<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">';
     }
     ?>
 
