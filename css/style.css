@@ -8,6 +8,9 @@
   font-family: georgia;
   src: url(../font/Georgia.ttf); }
 @font-face {
+  font-family: neutraface-b;
+  src: url(../font/NeutrafaceText-Bold.otf); }
+@font-face {
   font-family: BigJohn;
   src: url(../font/BigJohn.otf); }
 html, body {
@@ -142,7 +145,7 @@ html, body {
     padding-top: 10%;
     text-align: justify; }
   #panel-name-2 .title-template-1 {
-    font-family: NeutrafaceText-book;
+    font-family: georgia;
     color: green; }
   #panel-name-2 .card {
     width: 60%;
@@ -152,7 +155,8 @@ html, body {
     margin-top: 100px;
     border: 2px solid #c0caa7; }
     #panel-name-2 .card h1.text-illustration {
-      margin-left: 2%; }
+      margin-left: 2%;
+      font-family: neutraface-b; }
     #panel-name-2 .card .card-box {
       width: 150px;
       height: 267px;
@@ -189,7 +193,7 @@ html, body {
     padding-top: 10%;
     text-align: justify; }
   #panel-name-3 .title-template-1 {
-    font-family: NeutrafaceText-book;
+    font-family: georgia;
     color: green; }
   #panel-name-3 .card {
     width: 60%;
@@ -199,7 +203,8 @@ html, body {
     margin-top: 100px;
     border: 2px solid #c0caa7; }
     #panel-name-3 .card h1.text-illustration {
-      margin-left: 2%; }
+      margin-left: 2%;
+      font-family: neutraface-b; }
     #panel-name-3 .card .card-box {
       width: 150px;
       height: 267px;
@@ -236,7 +241,7 @@ html, body {
     padding-top: 10%;
     text-align: justify; }
   #panel-name-4 .title-template-1 {
-    font-family: NeutrafaceText-book;
+    font-family: georgia;
     color: green; }
   #panel-name-4 .card {
     width: 60%;
@@ -246,7 +251,8 @@ html, body {
     margin-top: 100px;
     border: 2px solid #c0caa7; }
     #panel-name-4 .card h1.text-illustration {
-      margin-left: 2%; }
+      margin-left: 2%;
+      font-family: neutraface-b; }
     #panel-name-4 .card .card-box {
       width: 150px;
       height: 267px;

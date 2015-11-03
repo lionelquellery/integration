@@ -34,7 +34,7 @@
 
 
 
-<section class="panel" id="panel-name-2">
+<section class="panel" id="panel-name-2" style="background-image: url(<?php the_field('bg_1'); ?>)">
    <div class="title-template"><?php the_field('title-panel-2') ?></div>
    <div class="float-box">
       <h1 class="title-template-1">A PROPOS</h1>
@@ -90,7 +90,7 @@
 
 
 <!-- section 4 = panel4 acf  -->
-<section class="panel" id="panel-name-4">
+<section class="panel" id="panel-name-4" style="background">
    <div class="title-template"><?php the_field('title-panel-4') ?></div>
    <div class="float-box">
       <h1 class="title-template-1">A PROPOS</h1>
