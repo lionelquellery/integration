@@ -108,7 +108,7 @@ html, body {
     position: relative; }
   #panel-name-1 .contain-right .template-top {
     padding-left: 95px;
-    width: 70%; }
+    width: 80%; }
     #panel-name-1 .contain-right .template-top .first-content {
       top: 60px;
       left: 120px;
@@ -132,8 +132,8 @@ html, body {
   position: relative;
   width: 70%; }
 #panel-name-1 .template-situation {
-  width: 200px;
-  margin-left: 10px;
+  width: 47%;
+  margin-left: 2%;
   display: inline-block; }
 
 #panel-name-2 {
