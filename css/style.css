@@ -132,7 +132,9 @@ html, body {
   position: relative;
   width: 70%; }
 #panel-name-1 .template-situation {
-  width: 400px; }
+  width: 200px;
+  margin-left: 10px;
+  display: inline-block; }
 
 #panel-name-2 {
   background-repeat: no-repeat;
@@ -209,7 +211,7 @@ html, body {
     padding-top: 5.25%;
     text-align: justify; }
   #panel-name-3 .title-template-1 {
-    font-family: georgia;
+    font-family: neutraface-b;
     color: green; }
   #panel-name-3 .card {
     width: 60%;
@@ -266,7 +268,7 @@ html, body {
     padding-top: 5.25%;
     text-align: justify; }
   #panel-name-4 .title-template-1 {
-    font-family: georgia;
+    font-family: neutraface-b;
     color: green; }
   #panel-name-4 .card {
     width: 60%;
