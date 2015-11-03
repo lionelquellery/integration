@@ -8,8 +8,6 @@
   font-family: georgia;
   src: url(../font/Georgia.ttf); }
 @font-face {
-  font-family: neutrafece demi; }
-@font-face {
   font-family: BigJohn;
   src: url(../font/BigJohn.otf); }
 html, body {
@@ -147,8 +145,8 @@ html, body {
     font-family: NeutrafaceText-book;
     color: green; }
   #panel-name-2 .card {
-    width: 887px;
-    height: 420px;
+    width: 60%;
+    height: 100%;
     float: right;
     margin-right: 100px;
     margin-top: 100px;
@@ -194,8 +192,8 @@ html, body {
     font-family: NeutrafaceText-book;
     color: green; }
   #panel-name-3 .card {
-    width: 887px;
-    height: 420px;
+    width: 60%;
+    height: 100%;
     float: right;
     margin-right: 100px;
     margin-top: 100px;
@@ -241,8 +239,8 @@ html, body {
     font-family: NeutrafaceText-book;
     color: green; }
   #panel-name-4 .card {
-    width: 887px;
-    height: 420px;
+    width: 60%;
+    height: 100%;
     float: right;
     margin-right: 100px;
     margin-top: 100px;
