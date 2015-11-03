@@ -6,6 +6,22 @@
 
     <?php if(preg_match('`ile-deserte`', $_SERVER['REQUEST_URI'])) {
     	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/ile-deserte.css">';
+    }else if (preg_match('`montagne`', $_SERVER['REQUEST_URI'])){
+    	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/montagne.css">';
+
+    }else if (preg_match('`jungle`', $_SERVER['REQUEST_URI'])){
+    	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/jungle.css">';
+
+    }else if (preg_match('`mer`', $_SERVER['REQUEST_URI'])){
+    	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/mer.css">';
+
+    }else if (preg_match('`desert`', $_SERVER['REQUEST_URI'])){
+    	echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/desert.css">';
+
+    }else{
+        echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/css/style.css">';
+
+
     }
     ?>
 
