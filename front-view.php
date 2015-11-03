@@ -8,17 +8,16 @@
 			<?php while ($loop->have_posts()) : $loop->the_post(); ?>
 <div class="card">
   <div class="card-header">
-    <img src=""/>
+    <!-- <img src=""/> -->
   </div>
   <div class="card-content">
     <h3><?php the_title(); ?></h3>
     <h4><?php the_field('situation-title'); ?></h4>
-    <p><?php the_content(); ?></p>
   </div>
   <div class="card-footer">
     <ul>
       <li>
-        <a href="<?php echo post_permalink( $ID ); ?>">oups</a>
+        <a href="<?php echo post_permalink( $ID ); ?>">Lire plus</a>
       </li>
     </ul>
   </div>
