@@ -1,6 +1,8 @@
 
 <?php get_header('view') ?>
+<header>
 <button class="CreateKit"><a href="/wordpress/kit/">Publie  ton aventure</a></button>
+</header>
 
 
 <h1 class="slogan">Il nous raconte leur situation</h1>
