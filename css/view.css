@@ -1,6 +1,9 @@
 @font-face {
   font-family: NeutrafaceText-book;
   src: url(../font/NeutrafaceText-Book.otf); }
+@font-face {
+  font-family: BigJohn;
+  src: url(../font/BigJohn.otf); }
 body {
   background-color: #fff;
   text-align: center; }
@@ -20,9 +23,12 @@ header a {
   font-size: 13px;
   color: #FFF; }
 
+header {
+  padding-top: 2%; }
+
 .slogan {
   text-align: center;
-  font-family: Open Sans;
+  font-family: BigJohn;
   font-size: 40px;
   color: #66219b; }
 
