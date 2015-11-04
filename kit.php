@@ -6,16 +6,8 @@
 <?php get_header('form') ?>
 <?php 
 
-if(isset(($_POST['submit'])){
 
-
-
-          
-        
-
-
-
-   
+if (isset($_POST['submit'])) {
 	$name = htmlspecialchars($_POST['myname']);
 	$situation = wp_kses_post($_POST['mysituation']);
 	$title_situation = $_POST['title_situation'];
@@ -27,8 +19,11 @@ if(isset(($_POST['submit'])){
 		'post_content' => $situation,
 		'post_type' => 'createkit',
 		'post_status' => 'publish',
+		
+
 
 	);
+
 
 	$post_id = wp_insert_post( $contact_post);
 
@@ -37,9 +32,11 @@ if(isset(($_POST['submit'])){
 	// else echo 'erreur lors de envoie';
 
 	update_field("field_5633f0cdacbef", $title_situation, $post_id);
- 
 
 
+
+
+}else{
 
 }
 
