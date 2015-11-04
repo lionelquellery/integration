@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
 	// if(wp_insert_post($contact_post)) echo 'votre kit a été enregistré ';
 	// else echo 'erreur lors de envoie';
 
-	update_field("field_5633f0cdacbef", $situation, $post_id);
+	update_field("field_5633f0cdacbef", $title_situation, $post_id);
    update_field("field_563a3b6b15144",$situation,$post_id);
 
    
