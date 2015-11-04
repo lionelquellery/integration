@@ -18,7 +18,7 @@
   <div class="card-footer">
     <ul>
       <li>
-        <a href="<?php echo post_permalink( $ID ); ?>">Lire plus</a>
+        <a href="<?php echo post_permalink( $ID ); ?>">Lire la suite</a>
       </li>
     </ul>
   </div>
