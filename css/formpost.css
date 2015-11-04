@@ -128,9 +128,7 @@ body, html {
   width: 155px;
   height: 30px;
   border: none;
-  border-radius: 5px;
-  float: left;
-  margin-left: 10%; }
+  border-radius: 5px; }
 
 .CreateKit a {
   text-decoration: none;
