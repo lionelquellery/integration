@@ -48,7 +48,8 @@ html, body {
   color: white; }
 
 #panel-name-1 p {
-  font-family: georgia; }
+  font-family: georgia;
+  font-size: 14.5px; }
 #panel-name-1 .sidebar {
   position: absolute;
   top: 0;

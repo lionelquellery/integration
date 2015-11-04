@@ -48,7 +48,8 @@ html, body {
   color: white; }
 
 #panel-name-1 p {
-  font-family: georgia; }
+  font-family: georgia;
+  font-size: 14.5px; }
 #panel-name-1 .sidebar {
   position: absolute;
   top: 0;
@@ -104,7 +105,8 @@ html, body {
       padding-top: 2%;
       font-family: BigJohn; }
       #panel-name-1 .contain-right .template-top .title-template-right-top-1 p {
-        font-family: georgia; }
+        font-family: georgia;
+        font-size: 14.5px; }
 #panel-name-1 .contain-right .second-content {
   top: 120px;
   left: 120px;
