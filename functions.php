@@ -13,7 +13,7 @@ add_filter("the_content", "plugin_myContentFilter");
   function plugin_myContentFilter($content)
   {
     // Take the existing content and return a subset of it
-    return substr($content, 0, 2);
+    return substr($content, 0, 300);
   }
 
 
