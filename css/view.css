@@ -38,7 +38,8 @@ header a {
     font-size: 25px;
     margin-bottom: 0;
     color: #66219b;
-    font-family: Montserrat, sans-serif; }
+    font-family: Montserrat, sans-serif;
+    text-align: center; }
   .card-content h4 {
     font-size: 14px;
     margin-top: 0;
@@ -50,7 +51,6 @@ header a {
     font-family: Open Sans, sans-serif; }
 
 .card-footer {
-  border-top: solid 1px #b6b6b6;
   padding: 5px; }
   .card-footer ul {
     padding: 0;
