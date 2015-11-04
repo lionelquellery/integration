@@ -9,7 +9,6 @@
 
 if (isset($_POST['submit'])) {
 	$name = htmlspecialchars($_POST['myname']);
-	$email = sanitize_email($_POST['myemail']);
 	$situation = wp_kses_post($_POST['mysituation']);
 	$title_situation = $_POST['title_situation'];
 
@@ -33,7 +32,6 @@ if (isset($_POST['submit'])) {
 	// else echo 'erreur lors de envoie';
 
 	update_field("field_5633f0cdacbef", $title_situation, $post_id);
-	update_field("field_5635443153111", $email, $post_id);
 
 
 
@@ -62,7 +60,6 @@ if (isset($_POST['submit'])) {
          <form action="<?php echo the_permalink(); ?>" method="POST">
 
             <p><input type="text" name="myname"  placeholder="Nom"></p>
-            <p><input type="text" name="myemail" placeholder="Email"></p>
             <p><input type="text" name="mysituation"  placeholder="titre de la situation"></p>
             <p><textarea  name="title_situation" placeholder="Message"></textarea></p>
             <p><input type="submit" name="submit" value="Envoyer"></p>
