@@ -177,7 +177,7 @@ html, body {
           #panel-name-2 .card .card-box .myimage p ::first-letter {
             text-transform: capitalize; }
         #panel-name-2 .card .card-box .myimage img {
-          width: 100%;
+          max-width: 150px;
           height: 100%; }
 
 #panel-name-3 {
@@ -235,7 +235,7 @@ html, body {
           #panel-name-3 .card .card-box .myimage p ::first-letter {
             text-transform: capitalize; }
         #panel-name-3 .card .card-box .myimage img {
-          width: 100%;
+          max-width: 150px;
           height: 100%; }
 
 #panel-name-4 {
@@ -293,5 +293,5 @@ html, body {
           #panel-name-4 .card .card-box .myimage p ::first-letter {
             text-transform: capitalize; }
         #panel-name-4 .card .card-box .myimage img {
-          width: 100%;
+          max-width: 150px;
           height: 100%; }
