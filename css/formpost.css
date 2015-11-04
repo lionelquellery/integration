@@ -1,3 +1,6 @@
+@font-face {
+  font-family: georgia;
+  src: url(../font/Georgia.ttf); }
 body, html {
   padding: 0;
   margin: 0;
@@ -25,7 +28,8 @@ body, html {
     margin: 0 auto;
     max-width: 500px;
     line-height: 1.5;
-    margin-bottom: 10%; }
+    margin-bottom: 10%;
+    font-family: georgia; }
 
 .split-right {
   order: -1;
