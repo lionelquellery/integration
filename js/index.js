@@ -1,7 +1,7 @@
 
- document.addEventListener("DOMContentLoaded", function(event) {
-    console.log("DOM fully loaded and parsed");
-  });
+
+
+
 
 window.onload = (function animation() {
 
@@ -29,10 +29,6 @@ window.onload = (function animation() {
 
     home();
    
-
-
-
-
-
-
 });
+
+
