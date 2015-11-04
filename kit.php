@@ -36,13 +36,12 @@ if (isset($_POST['submit'])) {
 	update_field("field_5633f0cdacbef", $title_situation, $post_id);
    update_field("field_563a3b6b15144",$situation,$post_id);
 
-   
-
-
-
+   header('Location:/wordpress'); 
 
 
 }else{
+
+   echo "error contact Admin";
  
 }
 
@@ -52,8 +51,8 @@ if (isset($_POST['submit'])) {
    
    function DoSubmit(){
   document.myform.submit.value = 'Merci ';
-   window.location.replace("http://www.google.com");
-  return false;
+  
+  return true;
 }
 </script>
 <div class="split-container">
