@@ -45,7 +45,7 @@ window.onload = (function animation() {
             scale: 0.5,
             opacity: 0,
             delay: 0.5,
-            ease: Elastic.easeOut,
+            ease: Power1.easeOut,
             force3D: true
         }, 0.2);
     }
