@@ -36,6 +36,8 @@ if (isset($_POST['submit'])) {
 	update_field("field_5633f0cdacbef", $title_situation, $post_id);
    update_field("field_563a3b6b15144",$situation,$post_id);
 
+   sleep(3);
+
    header('Location:/wordpress'); 
 
 
