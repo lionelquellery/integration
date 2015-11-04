@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
 
 	$contact_post = array(
 		'post_title' => $name,
-		'post_content' => $situation,
+		'post_content' => $title_situation,
 		'post_type' => 'createkit',
 		'post_status' => 'publish',
 		
@@ -63,7 +63,7 @@ if (isset($_POST['submit'])) {
          <form action="<?php echo the_permalink(); ?>" method="POST">
 
             <p><input type="text" name="myname"  placeholder="Nom"></p>
-            <p><input type="text" name="mysituation"  placeholder="titre de la situation"></p>
+            <p><input type="text" name="title_situation"  placeholder="titre de la situation"></p>
             <p><textarea  name="title_situation" placeholder="Message"></textarea></p>
             <p><input type="submit" name="submit" value="Envoyer"></p>
          </form>
