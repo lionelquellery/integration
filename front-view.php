@@ -11,9 +11,6 @@
 	<?php if (have_posts()) : ?>
 			<?php while ($loop->have_posts()) : $loop->the_post(); ?>
 <div class="card">
-  <div class="card-header">
-    <!-- <img src=""/> -->
-  </div>
   <div class="card-content">
     <h3><?php the_title(); ?></h3>
     <h4><?php the_field('situation-title'); ?></h4>
