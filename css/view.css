@@ -2,7 +2,8 @@
   font-family: NeutrafaceText-book;
   src: url(../font/NeutrafaceText-Book.otf); }
 body {
-  background-color: #fff; }
+  background-color: #fff;
+  text-align: center; }
 
 header button {
   background-color: #66219b;

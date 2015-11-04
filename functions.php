@@ -1,6 +1,5 @@
 <?php 
 add_theme_support( 'post-thumbnails' );
-add_image_size('film_liste', 270, 220, array('center','top'));
 add_image_size('home', 370, 220, true);
 add_action('init', 'situation_post_type');
 add_action('init', 'ingredient_post_type');
@@ -12,7 +11,7 @@ add_filter("the_content", "plugin_myContentFilter");
 
   function plugin_myContentFilter($content)
   {
-    // Take the existing content and return a subset of it
+    // retourne une limite de contenu 
     return substr($content, 0, 10);
   }
 
