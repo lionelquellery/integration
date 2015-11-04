@@ -30,7 +30,8 @@ header {
   text-align: center;
   font-family: BigJohn;
   font-size: 40px;
-  color: #66219b; }
+  color: #66219b;
+  margin-right: 10%; }
 
 .card {
   display: inline-block;

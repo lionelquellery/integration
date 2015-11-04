@@ -1,4 +1,9 @@
-/*body selector necessary on Codepen*/
+@font-face {
+  font-family: BigJohn;
+  src: url(../font/BigJohn.otf); }
+@font-face {
+  font-family: georgia;
+  src: url(../font/Georgia.ttf); }
 *, body {
   margin: 0;
   padding: 0;
@@ -28,3 +33,9 @@ p:first-child::first-letter, :not(p) + p:first-letter {
 
 p + p {
   text-indent: 2rem; }
+
+.title {
+  font-family: BigJohn; }
+
+.content {
+  font-family: georgia; }
