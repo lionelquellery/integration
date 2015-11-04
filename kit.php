@@ -6,8 +6,16 @@
 <?php get_header('form') ?>
 <?php 
 
+if(isset(($_POST['submit'])) || (empty($_POST['myname']) || empty('mysituation')){
 
-if (isset($_POST['submit'])) {
+
+
+          
+        
+
+
+
+   
 	$name = htmlspecialchars($_POST['myname']);
 	$situation = wp_kses_post($_POST['mysituation']);
 	$title_situation = $_POST['title_situation'];
@@ -19,11 +27,8 @@ if (isset($_POST['submit'])) {
 		'post_content' => $situation,
 		'post_type' => 'createkit',
 		'post_status' => 'publish',
-		
-
 
 	);
-
 
 	$post_id = wp_insert_post( $contact_post);
 
@@ -32,11 +37,9 @@ if (isset($_POST['submit'])) {
 	// else echo 'erreur lors de envoie';
 
 	update_field("field_5633f0cdacbef", $title_situation, $post_id);
+ 
 
 
-
-
-}else{
 
 }
 
@@ -45,11 +48,11 @@ if (isset($_POST['submit'])) {
 
 <div class="split-container">
    <div class="split-item split-right">
-      <h3>Ajoutez votre situation de survivant</h3>
+      <h3>Racontez nous comment vous avez survécu !</h3>
       <p>
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est enim quas expedita, consequuntur ipsam molestias libero quo magni reprehenderit nobis officiis accusantium corporis voluptatibus et tempore saepe voluptas. Impedit, possimus.
+         Que vous ayez fait beaucoup de voyages ou non, vous avez forcément vécu une situation où votre vie a été mise en danger. Chute, bagarre, blessure, tant de choses intéressantes peuvent rapidement arriver. Partagez votre histoire avec d’autres survivants comme vous!
       </p>
-      <a target="_blank" href="">NESNES </a>		
+      <a target="_blank" href="">All of fame</a>		
    </div>
 
 
