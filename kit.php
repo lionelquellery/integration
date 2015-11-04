@@ -58,6 +58,8 @@ if (isset($_POST['submit'])) {
 </script>
 <div class="split-container">
    <div class="split-item split-right">
+   <button class="CreateKit"><a href="/wordpress">Retour</a></button>
+
       <h3>Racontez nous comment vous avez survécu !</h3>
       <p>
          Que vous ayez fait beaucoup de voyages ou non, vous avez forcément vécu une situation où votre vie a été mise en danger. Chute, bagarre, blessure, tant de choses intéressantes peuvent rapidement arriver. Partagez votre histoire avec d’autres survivants comme vous!
