@@ -71,7 +71,7 @@
    </div>
 
     <div class="card">
-   <h1 class="text-illustration">Vous aurez besoin de <?php the_field('number_element_3'); ?> élements</h1>
+   <h1 class="text-illustration">Vous aurez besoin de <?php the_field('number_element_3'); ?> ingrédients</h1>
    <?php if( have_rows('ingredient_2') ): ?>
     <?php while ( have_rows('ingredient_2') ) : the_row(); ?>
       <div class="card-box">
@@ -98,7 +98,7 @@
    </div>
 
     <div class="card">
-   <h1 class="text-illustration">Vous aurez besoin de <?php the_field('number_element_4'); ?> élements</h1>
+   <h1 class="text-illustration">Vous aurez besoin de <?php the_field('number_element_4'); ?>ingrédients</h1>
    <?php if( have_rows('ingredient_3') ): ?>
     <?php while ( have_rows('ingredient_3') ) : the_row(); ?>
       <div class="card-box">
