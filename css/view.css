@@ -33,7 +33,8 @@ header a {
 
 .card-content {
   width: 85%;
-  margin: 35px auto; }
+  margin: 35px auto;
+  word-wrap: break-word; }
   .card-content h3 {
     font-size: 25px;
     margin-bottom: 0;
