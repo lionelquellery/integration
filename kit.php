@@ -74,7 +74,7 @@ if (isset($_POST['submit'])) {
          <form action="<?php echo the_permalink(); ?>" name="myform" method="POST"  onsubmit="DoSubmit();">
 
             <p><input type="text" name="myname"  placeholder="Nom"></p>
-            <p><input type="text" name="title_situation"  placeholder="titre de la situation"></p>
+            <p><input type="text" name="title_situation"  placeholder="Titre de la situation"></p>
             <p><textarea  name="mysituation" placeholder="Message"></textarea></p>
             <p><input type="submit" name="submit" value="Envoyer"></p>
          </form>

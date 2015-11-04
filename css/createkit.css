@@ -59,7 +59,8 @@ p + p {
   color: #FFF; }
 
 .title {
-  font-family: BigJohn; }
+  font-family: BigJohn;
+  color: #66219b; }
 
 .content {
   font-family: georgia; }
