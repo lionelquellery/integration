@@ -4,6 +4,8 @@
 
  ?>
 <?php get_header('form') ?>
+
+
 <?php 
 
 
@@ -34,19 +36,25 @@ if (isset($_POST['submit'])) {
 	update_field("field_5633f0cdacbef", $situation, $post_id);
    update_field("field_563a3b6b15144",$title_situation,$post_id);
 
-   echo "ok";
+   
 
 
 
 
 
 }else{
-
+ 
 }
 
 
  ?>
-
+<script>
+   
+   function DoSubmit(){
+  document.myform.submit.value = '1';
+  return true;
+}
+</script>
 <div class="split-container">
    <div class="split-item split-right">
       <h3>Racontez nous comment vous avez survécu !</h3>
@@ -61,7 +69,7 @@ if (isset($_POST['submit'])) {
    <h1>Publie ton Aventure</h1>
       
       <div class="form">
-         <form action="<?php echo the_permalink(); ?>" method="POST">
+         <form action="<?php echo the_permalink(); ?>" name="myform" method="POST"  onsubmit="DoSubmit();">
 
             <p><input type="text" name="myname"  placeholder="Nom"></p>
             <p><input type="text" name="title_situation"  placeholder="titre de la situation"></p>
