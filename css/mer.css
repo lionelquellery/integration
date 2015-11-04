@@ -155,7 +155,8 @@ html, body {
     filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=5); }
     #panel-name-2 .card h1.text-illustration {
       margin-left: 2%;
-      font-family: neutraface-b; }
+      font-family: neutraface-b;
+      color: #38547e; }
     #panel-name-2 .card .card-box {
       width: 150px;
       height: 267px;
@@ -212,7 +213,8 @@ html, body {
     filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=5); }
     #panel-name-3 .card h1.text-illustration {
       margin-left: 2%;
-      font-family: neutraface-b; }
+      font-family: neutraface-b;
+      color: #38547e; }
     #panel-name-3 .card .card-box {
       width: 150px;
       height: 267px;
@@ -269,7 +271,8 @@ html, body {
     filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=5); }
     #panel-name-4 .card h1.text-illustration {
       margin-left: 2%;
-      font-family: neutraface-b; }
+      font-family: neutraface-b;
+      color: #38547e; }
     #panel-name-4 .card .card-box {
       width: 150px;
       height: 267px;
