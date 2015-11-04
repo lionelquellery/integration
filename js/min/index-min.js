@@ -1,1 +1,1 @@
-window.onload=function e(){var e=function a(){var e=$("li"),a=new TimelineLite;a.staggerFrom(e,2,{scale:.5,opacity:0,delay:.5,ease:Power1.easeOut,force3D:!0},.2)};e()};
+window.onload=function e(){var e=function a(){var e=$("li"),a=new TimelineLite;a.staggerFrom(e,1,{scale:.5,opacity:0,delay:.5,ease:Power1.easeOut,force3D:!0},.2)};e()};

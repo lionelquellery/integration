@@ -41,7 +41,7 @@ window.onload = (function animation() {
 
         var tl = new TimelineLite();
 
-        tl.staggerFrom(li, 2, {
+        tl.staggerFrom(li, 1, {
             scale: 0.5,
             opacity: 0,
             delay: 0.5,
