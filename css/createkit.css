@@ -41,6 +41,20 @@ p + p {
   margin-left: 80px;
   width: 100px; }
 
+.CreateKit {
+  background-color: #66219b;
+  width: 155px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  float: right; }
+
+.CreateKit a {
+  text-decoration: none;
+  font-family: NeutrafaceText-Book;
+  font-size: 13px;
+  color: #FFF; }
+
 .title {
   font-family: BigJohn; }
 
