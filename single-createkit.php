@@ -1,7 +1,7 @@
 <?php get_header('createkit'); ?>	
 
 <article>
-  <h1>Lorem Ipsum Dolor</h1>
+  <h1><?php the_field('situation-title'); ?></h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin laoreet fermentum. Quisque sed urna ultricies, iaculis diam a, vulputate eros. Vestibulum consectetur condimentum iaculis. Sed tempus diam enim, eu ullamcorper erat gravida at. Praesent lacus tellus, ornare quis imperdiet sit amet, vehicula id eros. Sed cursus odio eget sapien molestie aliquet. Cras vel lorem in dolor finibus rutrum. Aenean imperdiet nunc libero, eu venenatis neque maximus vel. Proin facilisis dolor id nunc feugiat tristique.</p>
   <p>Nunc id ullamcorper ex. Morbi elementum sapien ultricies massa mattis pharetra eget et enim. Etiam congue malesuada commodo. Sed laoreet tempus lorem a posuere. Vestibulum cursus, ipsum eu efficitur venenatis, risus purus semper sem, ut mollis ex nulla et lorem. Praesent eleifend finibus est et molestie. Curabitur egestas mauris vitae elementum laoreet. Maecenas vitae molestie nibh, vel consequat purus. Phasellus faucibus porta odio id scelerisque. Sed non dui mauris.</p>
   <img src="http://lorempixel.com/640/320/cats/4/" alt="cat picture" title="from lorempixel.com/"/>
