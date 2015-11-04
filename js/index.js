@@ -34,6 +34,9 @@
 window.onload = (function animation() {
 
     // animation des blocks li
+document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM fully loaded and parsed");
+  });
 
     var home = function home() {
 

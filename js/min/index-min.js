@@ -1,1 +1,1 @@
-window.onload=function e(){var e=function a(){var e=$("li"),a=new TimelineLite;a.staggerFrom(e,1,{scale:.5,opacity:0,delay:.2,ease:Power1.easeOut,force3D:!0},.2)};e()};
+window.onload=function e(){document.addEventListener("DOMContentLoaded",function(e){console.log("DOM fully loaded and parsed")});var e=function n(){var e=$("li"),n=new TimelineLite;n.staggerFrom(e,1,{scale:.5,opacity:0,delay:.2,ease:Power1.easeOut,force3D:!0},.2)};e()};
