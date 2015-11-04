@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
       <p>
          Que vous ayez fait beaucoup de voyages ou non, vous avez forcément vécu une situation où votre vie a été mise en danger. Chute, bagarre, blessure, tant de choses intéressantes peuvent rapidement arriver. Partagez votre histoire avec d’autres survivants comme vous!
       </p>
-      <a target="_blank" href="">All of fame</a>		
+      <a target="_blank" href="">Hall of fame</a>		
    </div>
 
 

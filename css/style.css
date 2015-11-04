@@ -116,10 +116,11 @@ html, body {
       width: 70%; }
     #panel-name-1 .contain-right .template-top .title-template-right-top {
       color: green;
-      padding-top: 5%;
+      padding-top: 2%;
       font-family: BigJohn; }
       #panel-name-1 .contain-right .template-top .title-template-right-top p {
-        font-family: georgia; }
+        font-family: georgia;
+        font-size: 14.5px; }
     #panel-name-1 .contain-right .template-top .title-template-right-top-1 {
       color: green;
       padding-top: 5%;

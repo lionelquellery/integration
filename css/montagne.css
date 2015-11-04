@@ -92,11 +92,12 @@ html, body {
       position: relative;
       width: 70%; }
     #panel-name-1 .contain-right .template-top .title-template-right-top {
-      padding-top: 5%;
+      padding-top: 2%;
       font-family: BigJohn;
       color: #5d7580; }
       #panel-name-1 .contain-right .template-top .title-template-right-top p {
-        font-family: georgia; }
+        font-family: georgia;
+        font-size: 14.5px; }
     #panel-name-1 .contain-right .template-top .title-template-right-top-1 {
       color: #5d7580;
       padding-top: 5%;
