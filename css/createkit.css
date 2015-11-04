@@ -47,7 +47,10 @@ p + p {
   height: 30px;
   border: none;
   border-radius: 5px;
-  float: right; }
+  float: right;
+  margin-top: 3%;
+  margin-right: 4%;
+  position: static; }
 
 .CreateKit a {
   text-decoration: none;
