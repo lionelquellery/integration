@@ -13,7 +13,7 @@
 <div class="card">
   <div class="card-content">
     <h3><?php the_title(); ?></h3>
-    <h4><?php the_content(); ?></h4>
+    <!-- <h4><?php the_content(); ?></h4> -->
   </div>
   <div class="card-footer">
     <ul>

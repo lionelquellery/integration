@@ -73,8 +73,7 @@ header {
       margin: 5px; }
       .card-footer ul li a {
         color: #66219b;
-        text-decoration: none;
-        text-transform: capitalize; }
+        text-decoration: none; }
       .card-footer ul li i {
         font-size: 2em;
         color: #3f51b5; }
