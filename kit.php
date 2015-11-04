@@ -34,7 +34,7 @@ if (isset($_POST['submit'])) {
 	// else echo 'erreur lors de envoie';
 
 	update_field("field_5633f0cdacbef", $situation, $post_id);
-   update_field("field_563a3b6b15144",$title_situation,$post_id);
+   update_field("field_563a3b6b15144",$situation,$post_id);
 
    
 
@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
 <script>
    
    function DoSubmit(){
-  document.myform.submit.value = '1';
+  document.myform.submit.value = 'Merci ';
   return true;
 }
 </script>
