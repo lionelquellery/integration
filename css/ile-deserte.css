@@ -64,6 +64,7 @@ html, body {
   #panel-name-1 .sidebar .sidebar-template-title {
     padding-top: 50%;
     padding-right: 30%;
+    width: 79%;
     font-size: 30px;
     color: #eddd26; }
     #panel-name-1 .sidebar .sidebar-template-title ::first-letter {
@@ -71,7 +72,7 @@ html, body {
     #panel-name-1 .sidebar .sidebar-template-title strong {
       font-size: 50px;
       font-family: BigJohn;
-      margin-left: 23%; }
+      margin-left: 26%; }
 #panel-name-1 .contain-right {
   position: absolute;
   top: 0;
