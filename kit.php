@@ -6,7 +6,7 @@
 <?php get_header('form') ?>
 <?php 
 
-if(isset(empty(($_POST['submit']))) || {
+if(isset(($_POST['submit'])){
 
 
 
