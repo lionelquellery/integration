@@ -26,11 +26,10 @@ header a {
   color: #66219b; }
 
 .card {
-  background-color: #f4f4f4;
   display: inline-block;
   width: 300px;
   margin: 1% 1% 1% 1%;
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.7); }
+  border: 3px solid #66219b; }
 
 .card-content {
   width: 85%;
