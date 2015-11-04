@@ -18,22 +18,6 @@ html, body {
   margin: 0;
   font-family: 'Arial'; }
 
-header button {
-  background-color: #66219b;
-  width: 155px;
-  height: 30px;
-  border: none;
-  border-radius: 5px;
-  float: right;
-  margin-top: 30px;
-  margin-right: 80px; }
-
-header a {
-  text-decoration: none;
-  font-family: NeutrafaceText-Book;
-  font-size: 13px;
-  color: #FFF; }
-
 .logo {
   position: absolute;
   z-index: 100;

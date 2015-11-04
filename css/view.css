@@ -1,3 +1,6 @@
+@font-face {
+  font-family: NeutrafaceText-book;
+  src: url(../font/NeutrafaceText-Book.otf); }
 body {
   background-color: #fff; }
 
@@ -7,7 +10,7 @@ header button {
   height: 30px;
   border: none;
   border-radius: 5px;
-  float: right;
+  float: left;
   margin-top: 30px;
   margin-right: 80px; }
 
