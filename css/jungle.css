@@ -116,7 +116,8 @@ html, body {
   display: inline-block; }
   #panel-name-1 .template-situation h1 {
     color: #899d4e;
-    font-family: neutraface-d; }
+    font-family: neutraface-d;
+    font-size: larger; }
 
 #panel-name-2 {
   background-repeat: no-repeat;
