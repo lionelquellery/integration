@@ -67,3 +67,5 @@ if (isset($_POST['submit'])) {
       </div>
    </div>
 </div>
+
+<?php get_footer(); ?>
