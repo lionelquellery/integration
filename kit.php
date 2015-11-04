@@ -52,6 +52,7 @@ if (isset($_POST['submit'])) {
    
    function DoSubmit(){
   document.myform.submit.value = 'Merci ';
+   window.location.replace("http://www.google.com");
   return true;
 }
 </script>
