@@ -25,12 +25,6 @@ body, html {
     margin: 0 auto;
     max-width: 500px;
     line-height: 1.5; }
-  .split-item a {
-    color: currentColor;
-    display: block;
-    text-align: center;
-    margin: 1em 0 0;
-    width: 100%; }
 
 .split-right {
   order: -1;
@@ -128,21 +122,6 @@ body, html {
   font-size: 16px;
   line-height: 0.5em;
   font-family: Arial,sans-serif; }
-
-.error {
-  padding: 5px 9px;
-  border: 1px solid red;
-  color: red;
-  border-radius: 3px; }
-
-.success {
-  padding: 5px 9px;
-  border: 1px solid green;
-  color: green;
-  border-radius: 3px; }
-
-form span {
-  color: red; }
 
 .CreateKit {
   background-color: #66219b;
