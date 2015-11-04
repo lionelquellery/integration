@@ -24,7 +24,8 @@ header a {
   color: #FFF; }
 
 header {
-  padding-top: 2%; }
+  padding-top: 2%;
+  padding-bottom: 3%; }
 
 .slogan {
   text-align: center;
