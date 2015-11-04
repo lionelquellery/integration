@@ -43,7 +43,7 @@
 
 
    <div class="card">
-   <h1 class="text-illustration">Vous aurez besoin de <strong><?php the_field('number_element_2'); ?></strong>< élements</h1>
+   <h1 class="text-illustration">Vous aurez besoin de <strong><?php the_field('number_element_2'); ?></strong> ingrédients</h1>
    <?php if( have_rows('ingredient') ): ?>
     <?php while ( have_rows('ingredient') ) : the_row(); ?>
       <div class="card-box">
