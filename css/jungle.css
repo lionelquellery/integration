@@ -70,7 +70,8 @@ html, body {
       text-transform: uppercase; }
     #panel-name-1 .sidebar .sidebar-template-title strong {
       font-size: 50px;
-      font-family: BigJohn; }
+      font-family: BigJohn;
+      margin-left: 23%; }
 #panel-name-1 .contain-right {
   position: absolute;
   top: 0;
@@ -92,7 +93,7 @@ html, body {
       position: relative;
       width: 70%; }
     #panel-name-1 .contain-right .template-top .title-template-right-top {
-      padding-top: 5%;
+      padding-top: 2%;
       font-family: BigJohn;
       color: #899d4e; }
       #panel-name-1 .contain-right .template-top .title-template-right-top p {
