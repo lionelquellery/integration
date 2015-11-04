@@ -182,7 +182,8 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover; }
   #panel-name-3 p {
-    font-family: georgia; }
+    font-family: georgia;
+    font-size: 14.5px; }
   #panel-name-3 .title-template {
     text-align: center;
     color: #ddcb55;
