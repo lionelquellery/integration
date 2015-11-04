@@ -24,7 +24,8 @@ body, html {
     text-align: center;
     margin: 0 auto;
     max-width: 500px;
-    line-height: 1.5; }
+    line-height: 1.5;
+    margin-bottom: 10%; }
 
 .split-right {
   order: -1;

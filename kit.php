@@ -68,7 +68,7 @@ if (isset($_POST['submit'])) {
 
 
    <div class="split-item split-left">
-   <h1>Publie ton Aventure</h1>
+   <h1>Publie ton aventure</h1>
       
       <div class="form">
          <form action="<?php echo the_permalink(); ?>" name="myform" method="POST"  onsubmit="DoSubmit();">
