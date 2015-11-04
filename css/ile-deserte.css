@@ -172,7 +172,8 @@ html, body {
         height: 64%; }
         #panel-name-2 .card .card-box .myimage p {
           text-align: center;
-          font-family: georgia; }
+          font-family: georgia;
+          margin-top: 25%; }
           #panel-name-2 .card .card-box .myimage p ::first-letter {
             text-transform: capitalize; }
         #panel-name-2 .card .card-box .myimage img {
@@ -230,7 +231,8 @@ html, body {
         height: 64%; }
         #panel-name-3 .card .card-box .myimage p {
           text-align: center;
-          font-family: georgia; }
+          font-family: georgia;
+          margin-top: 25%; }
           #panel-name-3 .card .card-box .myimage p ::first-letter {
             text-transform: capitalize; }
         #panel-name-3 .card .card-box .myimage img {
@@ -287,7 +289,8 @@ html, body {
         height: 64%; }
         #panel-name-4 .card .card-box .myimage p {
           text-align: center;
-          font-family: georgia; }
+          font-family: georgia;
+          margin-top: 25%; }
           #panel-name-4 .card .card-box .myimage p ::first-letter {
             text-transform: capitalize; }
         #panel-name-4 .card .card-box .myimage img {
