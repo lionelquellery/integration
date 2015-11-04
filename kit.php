@@ -6,7 +6,8 @@
 <?php get_header('form') ?>
 <?php 
 
-if(isset(($_POST['submit'])) || (empty($_POST['myname']) || empty('mysituation')){
+if(isset(($_POST['submit'])){ 
+ if (empty($_POST['myname']) || empty('mysituation')){
 
 
 
@@ -37,7 +38,7 @@ if(isset(($_POST['submit'])) || (empty($_POST['myname']) || empty('mysituation')
 	// else echo 'erreur lors de envoie';
 
 	update_field("field_5633f0cdacbef", $title_situation, $post_id);
- 
+ }
 
 
 
