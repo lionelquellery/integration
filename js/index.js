@@ -23,9 +23,22 @@ window.onload = (function animation() {
         }, 0.2);
     }
 
-    // animation opiciter de chaque li 
+	var view = function view(){
+
+		var card = $('.card');
 
 
+		var tl = new TimelineLite();
+
+		tl.staggerFrom(card, 1, {top:1,opacity:0, delay:0, ease: Expo.easeOut, y: 20 ,x:0}, 0.5);
+
+
+
+
+
+	}
+
+	view();
 
     home();
    
