@@ -60,7 +60,9 @@ p + p {
 
 .title {
   font-family: BigJohn;
-  color: #66219b; }
+  color: #66219b;
+  text-align: center;
+  padding-top: 8%; }
 
 .content {
   font-family: georgia; }
