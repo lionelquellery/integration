@@ -4,7 +4,7 @@
   <h1 class="title"><?php the_field('situation-title'); ?></h1>
 <p class="content"><?php the_field('content_id'); ?></p>
 <hr>
-<p class="author">by <?php the_title(); ?></p>
+<p class="author">Author<?php the_title(); ?></p>
 
 </article>
 
