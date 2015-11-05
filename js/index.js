@@ -30,7 +30,7 @@ window.onload = (function animation() {
 
 		var tl = new TimelineLite();
 
-		tl.staggerFrom(card, 1, {top:1,opacity:0, delay:0, ease: Expo.easeOut, y: 50 ,x:0}, 1);
+		tl.staggerFrom(card, 1, {top:1,opacity:0, delay:0, ease: Expo.easeOut, y: 50 ,x:0}, 0.5);
 
 
 
