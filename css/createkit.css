@@ -67,6 +67,9 @@ p + p {
 .content {
   font-family: georgia; }
 
+.author {
+  color: #66219b; }
+
 .social img {
   width: 20%;
   height: 20%; }
