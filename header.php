@@ -25,7 +25,7 @@
     }
     ?>
 
-    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.ico." />
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico." />
 
 
 
