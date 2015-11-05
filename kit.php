@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
 		'post_title' => $name,
 		'post_content' => $title_situation,
 		'post_type' => 'createkit',
-		'post_status' => 'publish',
+		'post_status' => 'draft',
 		
 
 
